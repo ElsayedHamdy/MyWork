@@ -30,8 +30,15 @@ namespace Calculator
                 }
                 else
                 {
-                    txt_rx2.Text = "";
-                    txt_rx1.Text = (-varaibles[2] / varaibles[1]).ToString();
+		    if (varaibles[1] != 0)
+                    {
+                        txt_rx2.Text = "";
+                        txt_rx1.Text = (-varaibles[2] / varaibles[1]).ToString();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Math Error");
+                    }
                 }
             }
             else

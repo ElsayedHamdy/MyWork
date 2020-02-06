@@ -1,0 +1,12 @@
+C:\Users\ELSAYED\source\repos\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\ELSAYED\source\repos\Calculator\bin\Debug\Calculator.exe
+C:\Users\ELSAYED\source\repos\Calculator\bin\Debug\Calculator.pdb
+C:\Users\ELSAYED\source\repos\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\ELSAYED\source\repos\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Calculator\obj\Debug\Calculator.exe
+C:\Users\ELSAYED\source\repos\Calculator\obj\Debug\Calculator.pdb
+C:\Users\ELSAYED\source\repos\Calculator\obj\Debug\Calculator.Form2.resources
+C:\Users\ELSAYED\source\repos\Calculator\obj\Debug\Calculator.Form3.resources
+C:\Users\ELSAYED\source\repos\Calculator\obj\Debug\Calculator.Form4.resources
