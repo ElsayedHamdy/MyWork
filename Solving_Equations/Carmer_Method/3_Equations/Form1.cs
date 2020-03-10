@@ -4,26 +4,26 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
-        public decimal[] varaibles;
+        public double[] varaibles;
         public Form1()
         {
             InitializeComponent();
-            varaibles = new decimal[12];
+            varaibles = new double[12];
         }
         private void button2_Click(object sender, EventArgs e)
         {
             if (validate(ref varaibles))
             {
-                decimal d   =  varaibles[0] * (varaibles[5] * varaibles[10] - varaibles[6] * varaibles[9]) 
+                double d   =  varaibles[0] * (varaibles[5] * varaibles[10] - varaibles[6] * varaibles[9]) 
                     - varaibles[1] * ( varaibles[4] * varaibles[10] - varaibles[6] * varaibles[8]) 
                     + varaibles[2] * (varaibles[4] * varaibles[9] - varaibles[5] * varaibles[8]);
-                decimal d_x = varaibles[3] * (varaibles[5] * varaibles[10] - varaibles[6] * varaibles[9])
+                double d_x = varaibles[3] * (varaibles[5] * varaibles[10] - varaibles[6] * varaibles[9])
                     - varaibles[1] * (varaibles[7] * varaibles[10] - varaibles[6] * varaibles[11])
                     + varaibles[2] * (varaibles[7] * varaibles[9] - varaibles[5] * varaibles[11]);
-                decimal d_y = varaibles[0] * (varaibles[7] * varaibles[10] - varaibles[6] * varaibles[11])
+                double d_y = varaibles[0] * (varaibles[7] * varaibles[10] - varaibles[6] * varaibles[11])
                     - varaibles[3] * (varaibles[4] * varaibles[10] - varaibles[6] * varaibles[8])
                     + varaibles[2] * (varaibles[4] * varaibles[11] - varaibles[7] * varaibles[8]);
-                decimal d_z = varaibles[0] * (varaibles[5] * varaibles[11] - varaibles[7] * varaibles[9])
+                double d_z = varaibles[0] * (varaibles[5] * varaibles[11] - varaibles[7] * varaibles[9])
                     - varaibles[1] * (varaibles[4] * varaibles[11] - varaibles[7] * varaibles[8])
                     + varaibles[3] * (varaibles[4] * varaibles[9] - varaibles[5] * varaibles[8]);
                 switch (d)
@@ -43,31 +43,31 @@ namespace Calculator
                 MessageBox.Show("Syntax Error");
             }
         }
-        public bool validate (ref decimal[]variables)
+        public bool validate (ref double[]variables)
             {
-                if (decimal.TryParse(txt_x.Text, out varaibles[0])) ;
+                if (double.TryParse(txt_x.Text, out varaibles[0])) ;
                 else return false;
-                if (decimal.TryParse(txt_y.Text, out varaibles[1])) ;
+                if (double.TryParse(txt_y.Text, out varaibles[1])) ;
                 else return false;
-                if (decimal.TryParse(txt_z.Text, out varaibles[2])) ;
+                if (double.TryParse(txt_z.Text, out varaibles[2])) ;
                 else return false;
-                if (decimal.TryParse(txt_c1.Text, out varaibles[3])) ;
+                if (double.TryParse(txt_c1.Text, out varaibles[3])) ;
                 else return false;
-                if (decimal.TryParse(txt_x2.Text, out varaibles[4])) ;
+                if (double.TryParse(txt_x2.Text, out varaibles[4])) ;
                 else return false;
-                if (decimal.TryParse(txt_y2.Text, out varaibles[5])) ;
+                if (double.TryParse(txt_y2.Text, out varaibles[5])) ;
                 else return false;
-                if (decimal.TryParse(txt_z2.Text, out varaibles[6])) ;
+                if (double.TryParse(txt_z2.Text, out varaibles[6])) ;
                 else return false;
-                if (decimal.TryParse(txt_c2.Text, out varaibles[7])) ;
+                if (double.TryParse(txt_c2.Text, out varaibles[7])) ;
                 else return false;
-                if (decimal.TryParse(txt_x3.Text, out varaibles[8])) ;
+                if (double.TryParse(txt_x3.Text, out varaibles[8])) ;
                 else return false;
-                if (decimal.TryParse(txt_y3.Text, out varaibles[9])) ;
+                if (double.TryParse(txt_y3.Text, out varaibles[9])) ;
                 else return false;
-                if (decimal.TryParse(txt_z3.Text, out varaibles[10])) ;
+                if (double.TryParse(txt_z3.Text, out varaibles[10])) ;
                 else return false;
-                if (decimal.TryParse(txt_c3.Text, out varaibles[11])) ;
+                if (double.TryParse(txt_c3.Text, out varaibles[11])) ;
                 else return false;
             return true;
             }
