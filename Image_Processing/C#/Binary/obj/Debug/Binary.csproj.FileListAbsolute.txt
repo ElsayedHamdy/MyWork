@@ -1,0 +1,9 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Binary\bin\Debug\Binary.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Binary\bin\Debug\Binary.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Binary\bin\Debug\Binary.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Binary\obj\Debug\Binary.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Binary\obj\Debug\Binary.Form1.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Binary\obj\Debug\Binary.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Binary\obj\Debug\Binary.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Binary\obj\Debug\Binary.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Binary\obj\Debug\Binary.pdb
