@@ -1,0 +1,9 @@
+C:\Users\ELSAYED\source\repos\GrayScale\bin\Debug\GrayScale.exe.config
+C:\Users\ELSAYED\source\repos\GrayScale\bin\Debug\GrayScale.exe
+C:\Users\ELSAYED\source\repos\GrayScale\bin\Debug\GrayScale.pdb
+C:\Users\ELSAYED\source\repos\GrayScale\obj\Debug\GrayScale.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\GrayScale\obj\Debug\GrayScale.Form1.resources
+C:\Users\ELSAYED\source\repos\GrayScale\obj\Debug\GrayScale.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\GrayScale\obj\Debug\GrayScale.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\GrayScale\obj\Debug\GrayScale.exe
+C:\Users\ELSAYED\source\repos\GrayScale\obj\Debug\GrayScale.pdb
