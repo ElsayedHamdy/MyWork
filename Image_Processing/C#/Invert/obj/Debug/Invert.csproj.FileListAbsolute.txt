@@ -1,0 +1,9 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Invert\bin\Debug\Invert.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Invert\bin\Debug\Invert.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Invert\bin\Debug\Invert.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Invert\obj\Debug\Invert.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Invert\obj\Debug\Invert.Form1.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Invert\obj\Debug\Invert.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Invert\obj\Debug\Invert.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Invert\obj\Debug\Invert.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Invert\obj\Debug\Invert.pdb
