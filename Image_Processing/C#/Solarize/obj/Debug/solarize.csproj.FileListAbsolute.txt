@@ -1,0 +1,8 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Solarise\bin\Debug\solarize.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Solarise\bin\Debug\solarize.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Solarise\bin\Debug\solarize.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Solarise\obj\Debug\solarize.Form1.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Solarise\obj\Debug\solarize.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Solarise\obj\Debug\solarize.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Solarise\obj\Debug\solarize.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Solarise\obj\Debug\solarize.pdb
