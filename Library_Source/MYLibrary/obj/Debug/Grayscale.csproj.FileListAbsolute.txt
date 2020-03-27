@@ -1,0 +1,10 @@
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\bin\Debug\grayscale.exe.config
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\bin\Debug\grayscale.exe
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\bin\Debug\grayscale.pdb
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\obj\Debug\Grayscale.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\obj\Debug\GrayScale.Form1.resources
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\obj\Debug\GrayScale.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\obj\Debug\Grayscale.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\obj\Debug\Grayscale.csproj.CoreCompileInputs.cache
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\obj\Debug\grayscale.exe
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\obj\Debug\grayscale.pdb

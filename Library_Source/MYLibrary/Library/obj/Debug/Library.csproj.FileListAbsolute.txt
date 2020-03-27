@@ -1,0 +1,10 @@
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\Library\bin\Debug\Dapper.dll
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\Library\bin\Debug\Dapper.xml
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\Library\obj\Debug\Library.csproj.CopyComplete
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\Library\obj\Debug\Library.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\Library\bin\Debug\Library.dll
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\Library\bin\Debug\Library.pdb
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\Library\obj\Debug\Library.dll
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\Library\obj\Debug\Library.pdb
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\Library\obj\Debug\Library.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\WindowsFormsApp2\Library\obj\Debug\Library.csproj.GenerateResource.cache

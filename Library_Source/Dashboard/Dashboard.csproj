@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52068DD9-BD01-4BDA-9FB1-9A7E5D7EE772}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Library</RootNamespace>
+    <AssemblyName>Dashboard</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ELSAYED\Desktop\myprojects\WebSite\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <TargetCulture>en</TargetCulture>
+    <ProductName>MyLibrary</ProductName>
+    <PublisherName>Elsayed Hamdy</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\icons8-engineer-48.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="UserControls\About.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Books\AddNewBooks2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Books\AddNewBooks2.Designer.cs">
+      <DependentUpon>AddNewBooks2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Books\EditBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Books\EditBooks.Designer.cs">
+      <DependentUpon>EditBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Courses\EditCourse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Courses\EditCourse.Designer.cs">
+      <DependentUpon>EditCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Instructors\AddNewInstructor2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Instructors\AddNewInstructor2.Designer.cs">
+      <DependentUpon>AddNewInstructor2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Instructors\EditInstructor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Instructors\EditInstructor.Designer.cs">
+      <DependentUpon>EditInstructor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Lectures\AddNewLectures2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Lectures\AddNewLectures2.Designer.cs">
+      <DependentUpon>AddNewLectures2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Lectures\EditLectures.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Lectures\EditLectures.Designer.cs">
+      <DependentUpon>EditLectures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Materials\AddNewMaterial2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Materials\AddNewMaterial2.Designer.cs">
+      <DependentUpon>AddNewMaterial2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Materials\EditMaterial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Materials\EditMaterial.Designer.cs">
+      <DependentUpon>EditMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MyInterfaces.cs" />
+    <Compile Include="UserControls\Sections\AddNewSections2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Sections\AddNewSections2.Designer.cs">
+      <DependentUpon>AddNewSections2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Sections\EditSections.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Sections\EditSections.Designer.cs">
+      <DependentUpon>EditSections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Sections\AddNewSections.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Sections\AddNewSections.Designer.cs">
+      <DependentUpon>AddNewSections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Sections\SectionsDataPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Sections\SectionsDataPanel.Designer.cs">
+      <DependentUpon>SectionsDataPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Sections\SectionsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Sections\SectionsPanel.Designer.cs">
+      <DependentUpon>SectionsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Lectures\AddNewLectures.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Lectures\AddNewLectures.Designer.cs">
+      <DependentUpon>AddNewLectures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Lectures\LecturesDataPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Lectures\LecturesDataPanel.Designer.cs">
+      <DependentUpon>LecturesDataPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Lectures\LecturesPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Lectures\LecturesPanel.Designer.cs">
+      <DependentUpon>LecturesPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Courses\AddNewCourse.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Courses\AddNewCourse.Designer.cs">
+      <DependentUpon>AddNewCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Courses\CourseDataPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Courses\CourseDataPanel.Designer.cs">
+      <DependentUpon>CourseDataPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Courses\CoursePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Courses\CoursePanel.Designer.cs">
+      <DependentUpon>CoursePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Books\AddNewBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Books\AddNewBooks.Designer.cs">
+      <DependentUpon>AddNewBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Books\BooksDataPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Books\BooksDataPanel.Designer.cs">
+      <DependentUpon>BooksDataPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Books\BooksPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Books\BooksPanel.Designer.cs">
+      <DependentUpon>BooksPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Materials\AddNewMaterial.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Materials\AddNewMaterial.Designer.cs">
+      <DependentUpon>AddNewMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Materials\MaterialDataPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Materials\MaterialDataPanel.Designer.cs">
+      <DependentUpon>MaterialDataPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Materials\MaterialPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Materials\MaterialPanel.Designer.cs">
+      <DependentUpon>MaterialPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Instructors\AddNewInstructor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Instructors\AddNewInstructor.Designer.cs">
+      <DependentUpon>AddNewInstructor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Instructors\InstructorPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Instructors\InstructorPanel.Designer.cs">
+      <DependentUpon>InstructorPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Instructors\InstructorsDataPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Instructors\InstructorsDataPanel.Designer.cs">
+      <DependentUpon>InstructorsDataPanel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserControls\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Books\AddNewBooks2.resx">
+      <DependentUpon>AddNewBooks2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Books\EditBooks.resx">
+      <DependentUpon>EditBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Courses\EditCourse.resx">
+      <DependentUpon>EditCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Instructors\AddNewInstructor2.resx">
+      <DependentUpon>AddNewInstructor2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Instructors\EditInstructor.resx">
+      <DependentUpon>EditInstructor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Lectures\AddNewLectures2.resx">
+      <DependentUpon>AddNewLectures2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Lectures\EditLectures.resx">
+      <DependentUpon>EditLectures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Materials\AddNewMaterial2.resx">
+      <DependentUpon>AddNewMaterial2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Materials\EditMaterial.resx">
+      <DependentUpon>EditMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Sections\AddNewSections2.resx">
+      <DependentUpon>AddNewSections2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Sections\EditSections.resx">
+      <DependentUpon>EditSections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Sections\AddNewSections.resx">
+      <DependentUpon>AddNewSections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Sections\SectionsDataPanel.resx">
+      <DependentUpon>SectionsDataPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Sections\SectionsPanel.resx">
+      <DependentUpon>SectionsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Lectures\AddNewLectures.resx">
+      <DependentUpon>AddNewLectures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Lectures\LecturesDataPanel.resx">
+      <DependentUpon>LecturesDataPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Lectures\LecturesPanel.resx">
+      <DependentUpon>LecturesPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Courses\AddNewCourse.resx">
+      <DependentUpon>AddNewCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Courses\CoursePanel.resx">
+      <DependentUpon>CoursePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Courses\CourseDataPanel.resx">
+      <DependentUpon>CourseDataPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Books\AddNewBooks.resx">
+      <DependentUpon>AddNewBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Books\BooksDataPanel.resx">
+      <DependentUpon>BooksDataPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Books\BooksPanel.resx">
+      <DependentUpon>BooksPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Materials\AddNewMaterial.resx">
+      <DependentUpon>AddNewMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Materials\MaterialDataPanel.resx">
+      <DependentUpon>MaterialDataPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Materials\MaterialPanel.resx">
+      <DependentUpon>MaterialPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Instructors\AddNewInstructor.resx">
+      <DependentUpon>AddNewInstructor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Instructors\InstructorPanel.resx">
+      <DependentUpon>InstructorPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Instructors\InstructorsDataPanel.resx">
+      <DependentUpon>InstructorsDataPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="attach.bat" />
+    <None Include="detach.bat" />
+    <None Include="install.bat" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="x32\msodbcsql.msi" />
+    <None Include="x32\MsSqlCmdLnUtils.msi" />
+    <None Include="x32\SqlLocalDB.msi" />
+    <None Include="x64\msodbcsql.msi" />
+    <None Include="x64\MsSqlCmdLnUtils.msi" />
+    <None Include="x64\SqlLocalDB.msi" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MYLibrary\Library\Library.csproj">
+      <Project>{0d0e6a7b-5915-4b14-991f-9ed40be364d5}</Project>
+      <Name>Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="create_database.sql" />
+    <Content Include="Library.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Library_log.ldf">
+      <DependentUpon>Library.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\5.gif" />
+    <None Include="Resources\unknown_person-1024x1024.png" />
+    <None Include="Resources\edit1.png" />
+    <None Include="Resources\edit2.png" />
+    <None Include="Resources\icons8-engineer-48.ico" />
+    <None Include="Resources\icons8-engineer-48.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

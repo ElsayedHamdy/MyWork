@@ -1,0 +1,76 @@
+﻿using Library.Models;
+using System.Collections.Generic;
+namespace Library.DataAccess
+{
+    public interface IConnection
+    {
+        Instructor CreateInstructor(Instructor instructor);
+        Material CreateMaterials(Material materials);
+        Course CreateCourse(Course course);
+        List<Instructor> GetInstructors();
+        bool CheckInstructors(Instructor instructor);
+        bool CheckMaterials(Material material);
+        bool CheckCourses(Course course);
+        bool CheckLectures(Lecture lecture);
+        bool CheckSections(Section section);
+        bool CheckBooks(Book book);
+        List<Material> GetMaterials();
+        List<Course> GetCourses();
+        Book CreateBook(Book book,int materialid);
+        Lecture CreateLecture(Lecture lecture,int materialid);
+        Section CreateSection(Section section,int materialid);
+        List<Lecture> GetLectures();
+        List<Section> GetSections();
+        List<Book> GetBooks();
+        List<string> CreateAuthors(Book book);
+        List<string> GetAuthors(int Id);
+        List<Lecture> GetMaterialsLectures(int Id);
+        List<Section> GetMaterialsSections(int Id);
+        List<Book> GetMaterialsBooks(int Id);
+        List<Instructor> SearchInstructors(string FirstName,string LastName,string Type);
+        List<Course> SearchCourses(string Name);
+        List<Material> SearchMaterials(string Name);
+        List<Lecture> SearchLectures(string Name);
+        List<Section> SearchSections(string Name);
+        List<Book> SearchBooks(string Name);
+        Instructor GetInstructor(int Id);
+        void UpdateInstructor(Instructor instructor);
+        void DeleteInstructor(int Id);
+        Material GetMaterial(int Id);
+        void UpdateMaterial(Material material);
+        void DeleteMaterial(int Id);
+        List<Lecture> GetLecturesWithoutMaterials(int Id);
+        List<Section> GetSectionsWithoutMaterials(int Id);
+        List<Book> GetBooksWithoutMaterials(int Id);
+        Course GetCourse(int Id);
+        void UpdateCourse(Course course);
+        void DeleteCourse(int Id);
+        Book GetBook(int Id);
+        void UpdateBook(Book book);
+        void DeleteBook(int Id);
+        Lecture GetLecture(int Id);
+        void UpdateLecture(Lecture lecture);
+        void DeleteLecture(int Id);
+        Section GetSection(int Id);
+        void UpdateSection(Section section);
+        void DeleteSection(int Id);
+        List<Lecture> GetLecturesByInstructor(int id);
+        List<Section> GetSectionsByInstructor(int id);
+        List<Book> GetBooksByInstructor(int id);
+        List<Course> GetCourseByInstructor(int id);
+        List<Material> GetMaterialByInstructor(int id);
+        List<Lecture> GetLecturesByCourse(int id);
+        List<Section> GetSectionsByCourse(int id);
+        List<Book> GetBooksByCourse(int id);
+        List<Instructor> GetInstructorsByCourse(int id);
+        List<Material> GetMaterialByCourse(int id);
+        List<Lecture> GetLecturesByMaterial(int id);
+        List<Section> GetSectionsByMaterial(int id);
+        List<Book> GetBooksByMaterial(int id);
+        List<Instructor> GetInstructorsByMaterial(int id);
+        List<Course> GetCoursesByMaterial(int id);
+        void Wipe();
+        void Backup();
+        void Restore(string file);
+    }
+}
