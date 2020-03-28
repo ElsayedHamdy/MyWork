@@ -148,7 +148,7 @@ namespace Library.UserControls.Books
                 searchbooks.Clear();
             }
         }
-       async void SearchInitialize(string Name)
+       void SearchInitialize(string Name)
         {
             searched = true;
             pictureBox1.Visible = true;
@@ -157,7 +157,7 @@ namespace Library.UserControls.Books
             panel1.Controls.Clear();
             booksdatas.Clear();
             panel1.SuspendLayout();
-           await Task.Run(() =>
+           Task.Run(() =>
             {
                 if (searchbooks.Count >= 7)
                 {
@@ -191,7 +191,7 @@ namespace Library.UserControls.Books
                         booksdatas.Add(panel);
                     }
                 }
-            });
+            }).Wait();
             panel1.Controls.AddRange(booksdatas.ToArray());
             panel1.ResumeLayout();
             pictureBox1.Visible = false;

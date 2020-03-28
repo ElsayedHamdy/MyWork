@@ -94,7 +94,7 @@ namespace Library.UserControls.Courses
                     {
                         
                         if (!item.CheckInstructors(course.Instructor)) course.Instructor = item.CreateInstructor(course.Instructor);
-                        if (!item.CheckMaterials(course.Material))     course.Material = item.CreateMaterials(course.Material);
+                        if (!item.CheckMaterials(course.Material))     course.Material   = item.CreateMaterials(course.Material);
                         course = item.CreateCourse(course);
                     }
                 }

@@ -218,7 +218,7 @@ namespace Library.UserControls.Instructors
                     return false;
             }
         }
-       async void SearchInitialize(string FirstName,string LastName,string Type)
+       void SearchInitialize(string FirstName,string LastName,string Type)
         {
             searched = true;
             pictureBox1.Visible = true;
@@ -227,35 +227,35 @@ namespace Library.UserControls.Instructors
             panel1.Controls.Clear();
             instructordatas.Clear();
             panel1.SuspendLayout();
-           await Task.Run(() =>
-            {
-                if (searchinstructors.Count >= 7)
-                {
-                    for (int i = 0; i < searchinstructors.Count; i++)
-                    {
-                        InstructorDataPanel panel = new InstructorDataPanel(this);
-                        panel.Dock = DockStyle.Top;
-                        panel.namelb.Text = searchinstructors[i].FullName;
-                        panel.emaillb.Text = searchinstructors[i].Email;
-                        panel.phonelb.Text = searchinstructors[i].Phone;
-                        panel.Width = 764;
-                        instructordatas.Add(panel);
-                    }
-                }
-                else
-                {
-                    for (int i = 0; i < searchinstructors.Count; i++)
-                    {
-                        var panel = new InstructorDataPanel(this);
-                        panel.Dock = DockStyle.Top;
-                        panel.namelb.Text = searchinstructors[i].FullName;
-                        panel.emaillb.Text = searchinstructors[i].Email;
-                        panel.phonelb.Text = searchinstructors[i].Phone;
-                        panel.Width = 781;
-                        instructordatas.Add(panel);
-                    }
-                }
-            });
+            Task.Run(() =>
+             {
+                 if (searchinstructors.Count >= 7)
+                 {
+                     for (int i = 0; i < searchinstructors.Count; i++)
+                     {
+                         InstructorDataPanel panel = new InstructorDataPanel(this);
+                         panel.Dock = DockStyle.Top;
+                         panel.namelb.Text = searchinstructors[i].FullName;
+                         panel.emaillb.Text = searchinstructors[i].Email;
+                         panel.phonelb.Text = searchinstructors[i].Phone;
+                         panel.Width = 764;
+                         instructordatas.Add(panel);
+                     }
+                 }
+                 else
+                 {
+                     for (int i = 0; i < searchinstructors.Count; i++)
+                     {
+                         var panel = new InstructorDataPanel(this);
+                         panel.Dock = DockStyle.Top;
+                         panel.namelb.Text = searchinstructors[i].FullName;
+                         panel.emaillb.Text = searchinstructors[i].Email;
+                         panel.phonelb.Text = searchinstructors[i].Phone;
+                         panel.Width = 781;
+                         instructordatas.Add(panel);
+                     }
+                 }
+             }).Wait();
             panel1.Controls.AddRange(instructordatas.ToArray());
             panel1.ResumeLayout();
             pictureBox1.Visible = false;

@@ -133,7 +133,7 @@ namespace Library.UserControls.Sections
                 searchsections.Clear();
             }
         }
-       async void SearchInitialize(string Name)
+       void SearchInitialize(string Name)
         {
             searched = true;
             pictureBox1.Visible = true;
@@ -142,7 +142,7 @@ namespace Library.UserControls.Sections
             panel1.Controls.Clear();
             sectionsdatas.Clear();
             panel1.SuspendLayout();
-           await Task.Run(() =>
+           Task.Run(() =>
             {
                 if (searchsections.Count >= 7)
                 {
@@ -170,7 +170,7 @@ namespace Library.UserControls.Sections
                         sectionsdatas.Add(panel);
                     }
                 }
-            });
+            }).Wait();
             panel1.Controls.AddRange(sectionsdatas.ToArray());
             panel1.ResumeLayout();
             pictureBox1.Visible = false;

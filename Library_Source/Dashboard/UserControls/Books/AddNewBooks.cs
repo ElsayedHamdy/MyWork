@@ -217,11 +217,8 @@ namespace Library.UserControls.Books
         {
             if (authorslist.Items != null)
             {
-                for (int i = 0; i < authorslist.Items.Count; i++)
-                {
-                    selectedauthors.Remove(authorslist.Items[i].ToString());
-                    authorslist.Items.Remove(authorslist.Items[i]);
-                }
+                selectedauthors.Clear();
+                authorslist.Items.Clear();
             }
             else
             {

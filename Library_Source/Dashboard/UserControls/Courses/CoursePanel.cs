@@ -129,7 +129,7 @@ namespace Library.UserControls.Courses
                 searchcourses.Clear();
             }
         }
-       async void SearchInitialize(string Name)
+       void SearchInitialize(string Name)
         {
             searched = true;
             pictureBox1.Visible = true;
@@ -138,7 +138,7 @@ namespace Library.UserControls.Courses
             panel1.Controls.Clear();
             coursesdatas.Clear();
             panel1.SuspendLayout();
-           await Task.Run(() =>
+           Task.Run(() =>
             {
                 if (searchcourses.Count > 7)
                 {
@@ -175,7 +175,7 @@ namespace Library.UserControls.Courses
                         coursesdatas.Add(panel);
                     }
                 }
-            });
+            }).Wait();
             panel1.Controls.AddRange(coursesdatas.ToArray());
             panel1.ResumeLayout();
             pictureBox1.Visible = false;

@@ -120,7 +120,7 @@ namespace Library.UserControls.Materials
                 searchmaterials.Clear();
             }
         }
-       async void SearchInitialize(string Name)
+       void SearchInitialize(string Name)
         {
             searched = true;
             pictureBox1.Visible = true;
@@ -129,7 +129,7 @@ namespace Library.UserControls.Materials
             panel1.Controls.Clear();
             materialdatas.Clear();
             panel1.SuspendLayout();
-           await Task.Run(() =>
+           Task.Run(() =>
             {
                 if (searchmaterials.Count >= 7)
                 {
@@ -159,7 +159,7 @@ namespace Library.UserControls.Materials
                         materialdatas.Add(panel);
                     }
                 }
-            });
+            }).Wait();
             panel1.Controls.AddRange(materialdatas.ToArray());
             panel1.ResumeLayout();
             pictureBox1.Visible = false;

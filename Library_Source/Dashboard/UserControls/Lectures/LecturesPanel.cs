@@ -135,7 +135,7 @@ namespace Library.UserControls.Lectures
                 searchlectures.Clear();
             }
         }
-        async void  SearchInitialize(string Name)
+        void  SearchInitialize(string Name)
         {
             searched = true;
             pictureBox1.Visible = true;
@@ -143,7 +143,7 @@ namespace Library.UserControls.Lectures
             searchlectures = Task.Run(() => Connector.connections[0].SearchLectures(Name)).Result;
             panel1.Controls.Clear();
             lecturesdatas.Clear();
-           await Task.Run(() =>
+           Task.Run(() =>
             {
                 panel1.SuspendLayout();
                 if (searchlectures.Count >= 7)
@@ -172,7 +172,7 @@ namespace Library.UserControls.Lectures
                         lecturesdatas.Add(panel);
                     }
                 }
-            });
+            }).Wait();
             panel1.Controls.AddRange(lecturesdatas.ToArray());
             panel1.ResumeLayout();
             pictureBox1.Visible = false;

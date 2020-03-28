@@ -119,12 +119,11 @@ namespace Library
         {
             if(list1.Length == list2.Length)
             {
-                Array.Sort(list1);
-                Array.Sort(list2);
+                //Array.Sort(list1);
+                //Array.Sort(list2);
                 for (int i = 0; i < list1.Length; i++)
                 {
-                    if (list1[i].Equals(list2[i])) ;
-                    else return false;
+                    if (!list1[i].Equals(list2[i])) return false;
                 }
                 return true;
             }
