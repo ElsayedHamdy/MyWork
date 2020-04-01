@@ -16,8 +16,8 @@ namespace Difference
          * buffer  >> buffering array used to edite the Image Data and to return back the edited ones to output array
          * buffer2 >> output array
          * r,g,b >> to hold the rgb values
-         * pointer  >> to hold the address to the red value of the first pixel in the memory (input array)
-         * pointer2 >> to hold the address to the red value of the first pixel in the memory (output array)
+         * pointer  >> to hold the address to the blue value of the first pixel in the memory (input array)
+         * pointer2 >> to hold the address to the blue value of the first pixel in the memory (output array)
          * brightness1 >> to hold the brightness value of current pixel
          * brightness2 >> to hold the brightness value of previous pixel
          * sub >> to hold the difference between brightness1 and brightness2
@@ -58,7 +58,7 @@ namespace Difference
         /* Converting The Image file:
          * 1-Lock the Image Bits in the memory (PixelFormat.Format24bppRgb means that the program is going to lock only red , green and blue without including the alpha channel)
          * 2-initializing the buffer array it's going to have all the image data (the image have height and width which leads to total pixel count = height * width and each pixel have r,g,b so the array length = height*width*3)
-         * 3-set the pointer to the location of the red value of the first pixel of the image
+         * 3-set the pointer to the location of the blue value of the first pixel of the image
          * 4-copy the Image Data to the Buffer Array
          * 5-Loop through each pixel and make the loop step = 3 (i+=3)
          * 6-assigin each channel value to it's corresponding variable
@@ -81,14 +81,14 @@ namespace Difference
             { 
                     if (i != 0)
                     {
-                        r = buffer[i];
+                        b = buffer[i];
                         g = buffer[i + 1];
-                        b = buffer[i + 2];
+                        r = buffer[i + 2];
                         if (b != g | b != r | g != r) brightness1 = Math.Max(Math.Max(r, g), b);
                         else brightness1 = b;
-                        r = buffer[i - 3];
+                        b = buffer[i - 3];
                         g = buffer[i - 2];
-                        b = buffer[i - 1];
+                        r = buffer[i - 1];
                         if (b != g | b != r | g != r) brightness2 = Math.Max(Math.Max(r, g), b);
                         else brightness2 = b;
                         sub = (byte)Math.Abs(brightness1 - brightness2);
