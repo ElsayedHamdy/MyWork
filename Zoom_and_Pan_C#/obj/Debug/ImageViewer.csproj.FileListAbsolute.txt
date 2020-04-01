@@ -1,0 +1,10 @@
+C:\Users\ELSAYED\source\repos\ImageViewer\bin\Debug\ImageViewer.exe.config
+C:\Users\ELSAYED\source\repos\ImageViewer\bin\Debug\ImageViewer.exe
+C:\Users\ELSAYED\source\repos\ImageViewer\bin\Debug\ImageViewer.pdb
+C:\Users\ELSAYED\source\repos\ImageViewer\obj\Debug\ImageViewer.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\ImageViewer\obj\Debug\ImageViewer.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\ImageViewer\obj\Debug\ImageViewer.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\ImageViewer\obj\Debug\ImageViewer.exe
+C:\Users\ELSAYED\source\repos\ImageViewer\obj\Debug\ImageViewer.pdb
+C:\Users\ELSAYED\source\repos\ImageViewer\obj\Debug\ImageViewer.exe.licenses
+C:\Users\ELSAYED\source\repos\ImageViewer\obj\Debug\ImageViewer.Form1.resources
