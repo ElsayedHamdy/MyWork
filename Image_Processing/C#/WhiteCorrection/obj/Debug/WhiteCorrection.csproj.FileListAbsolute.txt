@@ -1,0 +1,9 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\WhiteCorrection\bin\Debug\WhiteCorrection.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\WhiteCorrection\bin\Debug\WhiteCorrection.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\WhiteCorrection\bin\Debug\WhiteCorrection.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\WhiteCorrection\obj\Debug\WhiteCorrection.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\WhiteCorrection\obj\Debug\WhiteCorrection.Form1.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\WhiteCorrection\obj\Debug\WhiteCorrection.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\WhiteCorrection\obj\Debug\WhiteCorrection.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\WhiteCorrection\obj\Debug\WhiteCorrection.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\WhiteCorrection\obj\Debug\WhiteCorrection.pdb
