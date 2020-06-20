@@ -4,7 +4,7 @@ using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace Contrast
+namespace Gamma
 {
     public partial class Form1 : Form
     {
@@ -13,15 +13,14 @@ namespace Contrast
          * ImageData >> to store The Image Data In the Memory
          * buffer >> buffering array used to edit the Image Data and to return back the edited ones
          * r,g,b >> to hold the rgb values
-         * contrast >> to hold the contrast value
-         * factor >> to hold calculated contrast factor
+         * gammacorrection >> to hold gamma correction value
          * pointer >> to hold the address to the blue value of the first pixel in the memory
          */
         private Bitmap Image;
         private BitmapData ImageData;
         private byte[] buffer;
-        private int r,g,b,contrast;
-        private float factor;
+        private int r,g,b;
+        private double gammacorrection;
         private IntPtr pointer;
         public Form1()
         {
@@ -65,28 +64,24 @@ namespace Contrast
         {
             /* Important Note:
              * we are using buffer_image in order to not making any changes to the orignal image
-             * so we are making new image out of applying contrast vlue to the orignal one
+             * so we are making new image out of applying gamma correction vlue to the orignal one
              * then returning the new image to picturebox
              */
             using (Bitmap buffer_image = (Bitmap)Image.Clone())  
             {
-                contrast = (int)updown.Value;
+                gammacorrection = 1 / (double)updown.Value;
                 ImageData = buffer_image.LockBits(new Rectangle(0, 0, Image.Width, Image.Height), ImageLockMode.ReadWrite, PixelFormat.Format24bppRgb);
                 buffer = new byte[3 * Image.Width * Image.Height];
                 pointer = ImageData.Scan0;
                 Marshal.Copy(pointer, buffer, 0, buffer.Length);
                 for (int i = 0; i < Image.Height * 3 * Image.Width; i += 3)
                 {
-                    factor = (259 * ((float)contrast + 255)) / (255 * (259 - (float)contrast));
-                    b = (int)(factor * (buffer[i] - 128) + 128);
-                    g = (int)(factor * (buffer[i + 1] - 128) + 128);
-                    r = (int)(factor * (buffer[i + 2] - 128) + 128);
+                    b = (int)(255 * Math.Pow((buffer[i] / 255.0), gammacorrection));
+                    g = (int)(255 * Math.Pow((buffer[i + 1] / 255.0), gammacorrection));
+                    r = (int)(255 * Math.Pow((buffer[i + 2] / 255.0), gammacorrection));
                     if (b > 255) b = 255;
-                    else if (b < 0) b = 0;
                     if (g > 255) g = 255;
-                    else if (g < 0) g = 0;
                     if (r > 255) r = 255;
-                    else if (r < 0) r = 0;
                     buffer[i] = (byte)b;
                     buffer[i + 1] = (byte)g;
                     buffer[i + 2] = (byte)r;

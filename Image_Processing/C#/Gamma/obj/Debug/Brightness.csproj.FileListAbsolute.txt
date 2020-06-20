@@ -1,0 +1,10 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Brightness\bin\Debug\Brightness.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Brightness\bin\Debug\Brightness.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Brightness\bin\Debug\Brightness.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Brightness\obj\Debug\Brightness.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Brightness\obj\Debug\Brightness.Form1.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Brightness\obj\Debug\Brightness.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Brightness\obj\Debug\Brightness.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Brightness\obj\Debug\Brightness.csproj.CoreCompileInputs.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Brightness\obj\Debug\Brightness.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Brightness\obj\Debug\Brightness.pdb

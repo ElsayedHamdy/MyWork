@@ -1,0 +1,10 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Gamma\bin\Debug\Gamma.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Gamma\bin\Debug\Gamma.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Gamma\bin\Debug\Gamma.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Gamma\obj\Debug\Gamma.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Gamma\obj\Debug\Gamma.Form1.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Gamma\obj\Debug\Gamma.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Gamma\obj\Debug\Gamma.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Gamma\obj\Debug\Gamma.csproj.CoreCompileInputs.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Gamma\obj\Debug\Gamma.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Gamma\obj\Debug\Gamma.pdb

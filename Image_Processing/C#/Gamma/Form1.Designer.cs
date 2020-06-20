@@ -1,4 +1,4 @@
-﻿namespace Contrast
+﻿namespace Gamma
 {
     partial class Form1
     {
@@ -81,21 +81,32 @@
             // 
             // updown
             // 
+            this.updown.DecimalPlaces = 2;
+            this.updown.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
             this.updown.Location = new System.Drawing.Point(711, 138);
             this.updown.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.updown.Maximum = new decimal(new int[] {
-            255,
+            799,
             0,
             0,
-            0});
+            131072});
             this.updown.Minimum = new decimal(new int[] {
-            255,
+            1,
             0,
             0,
-            -2147483648});
+            131072});
             this.updown.Name = "updown";
             this.updown.Size = new System.Drawing.Size(87, 20);
             this.updown.TabIndex = 3;
+            this.updown.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
             // 
             // Form1
             // 

@@ -1,0 +1,10 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Contrast\bin\Debug\Contrast.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Contrast\bin\Debug\Contrast.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Contrast\bin\Debug\Contrast.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Contrast\obj\Debug\Contrast.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Contrast\obj\Debug\Brightness.Form1.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Contrast\obj\Debug\Contrast.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Contrast\obj\Debug\Contrast.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Contrast\obj\Debug\Contrast.csproj.CoreCompileInputs.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Contrast\obj\Debug\Contrast.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Contrast\obj\Debug\Contrast.pdb
