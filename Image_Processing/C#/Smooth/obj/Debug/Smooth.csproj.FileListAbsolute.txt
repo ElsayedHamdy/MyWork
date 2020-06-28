@@ -1,0 +1,10 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Smooth\bin\Debug\Smooth.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Smooth\bin\Debug\Smooth.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Smooth\bin\Debug\Smooth.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Smooth\obj\Debug\Smooth.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Smooth\obj\Debug\Smooth.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Smooth\obj\Debug\Smooth.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Smooth\obj\Debug\Smooth.csproj.CoreCompileInputs.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Smooth\obj\Debug\Smooth.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Smooth\obj\Debug\Smooth.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Smooth\obj\Debug\Smooth.Form1.resources
