@@ -1,0 +1,9 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Difference\bin\Debug\Difference.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Difference\bin\Debug\Difference.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Difference\bin\Debug\Difference.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Difference\obj\Debug\Difference.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Difference\obj\Debug\Difference.Form1.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Difference\obj\Debug\Difference.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Difference\obj\Debug\Difference.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Difference\obj\Debug\Difference.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Difference\obj\Debug\Difference.pdb
