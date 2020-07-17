@@ -1,0 +1,10 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Sharp\bin\Debug\Sharp.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Sharp\bin\Debug\Sharp.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Sharp\bin\Debug\Sharp.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Sharp\obj\Debug\Sharp.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Sharp\obj\Debug\Sharp.Form1.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Sharp\obj\Debug\Sharp.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Sharp\obj\Debug\Sharp.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Sharp\obj\Debug\Sharp.csproj.CoreCompileInputs.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Sharp\obj\Debug\Sharp.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Sharp\obj\Debug\Sharp.pdb

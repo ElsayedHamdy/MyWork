@@ -1,0 +1,10 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Flip\obj\Debug\Flip.Form1.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Flip\obj\Debug\Flip.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Flip\obj\Debug\Flip.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Flip\obj\Debug\Flip.csproj.CoreCompileInputs.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Flip\bin\Debug\Flip.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Flip\bin\Debug\Flip.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Flip\bin\Debug\Flip.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Flip\obj\Debug\Flip.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Flip\obj\Debug\Flip.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Flip\obj\Debug\Flip.csprojAssemblyReference.cache

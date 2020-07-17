@@ -1,0 +1,10 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Mirror\bin\Debug\Mirror.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Mirror\bin\Debug\Mirror.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Mirror\bin\Debug\Mirror.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Mirror\obj\Debug\Mirror.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Mirror\obj\Debug\Mirror.Form1.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Mirror\obj\Debug\Mirror.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Mirror\obj\Debug\Mirror.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Mirror\obj\Debug\Mirror.csproj.CoreCompileInputs.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Mirror\obj\Debug\Mirror.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Mirror\obj\Debug\Mirror.pdb
