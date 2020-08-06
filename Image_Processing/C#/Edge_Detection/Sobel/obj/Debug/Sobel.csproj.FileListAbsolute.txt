@@ -1,0 +1,10 @@
+C:\Users\ELSAYED\source\repos\Image_Processing\Sobel\bin\Debug\Sobel.exe.config
+C:\Users\ELSAYED\source\repos\Image_Processing\Sobel\bin\Debug\Sobel.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Sobel\bin\Debug\Sobel.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Sobel\obj\Debug\Sobel.csprojAssemblyReference.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Sobel\obj\Debug\Sobel.Properties.Resources.resources
+C:\Users\ELSAYED\source\repos\Image_Processing\Sobel\obj\Debug\Sobel.csproj.GenerateResource.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Sobel\obj\Debug\Sobel.csproj.CoreCompileInputs.cache
+C:\Users\ELSAYED\source\repos\Image_Processing\Sobel\obj\Debug\Sobel.exe
+C:\Users\ELSAYED\source\repos\Image_Processing\Sobel\obj\Debug\Sobel.pdb
+C:\Users\ELSAYED\source\repos\Image_Processing\Sobel\obj\Debug\Sobel.Form1.resources
